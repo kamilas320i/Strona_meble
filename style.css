@@ -51,22 +51,28 @@ body{
 	float: left;
 	margin-left: 10%;
 	margin-right: 22px;
+	font-family: 'Lobster', cursive;
+	font-size: 35px;
+	margin-top: 12px;
 }
 #find{
 	float: left;
-	background-color: grey;
 	margin-right: 2px;
-}
-#sing_in2{
-	float: left;
-	background-color: grey;
-	margin-right: 2px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 25px;
+	margin-top: 10px;
+	padding-right: 17%;
 }
 #sing_in1{
 	float: left;
-	background-color: grey;
-	margin-right: 2px;
+	margin-top: 15px;
+	margin-right: 3px;
 }
+#sing_in2{
+	float: left;
+	margin-top: 15px;
+}
+
 
 
 	
