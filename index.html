@@ -18,58 +18,90 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-  .modal-header, h4, .close {
-      background-color: #5cb85c;
-      color:white !important;
-      text-align: center;
-      font-size: 30px;
-  }
-  .modal-footer {
-      background-color: #f9f9f9;
-  }
-  </style>
-	
-	
-	
+ 
 </head>
 <body>
 
 <div id="links">
-dddd
+phone number and some links
 </div>
 <div id="sing_in">
 
 
 
 	<div id = "logo"> 
-	<h2 style="font-size: 45px">Viktoria meble</h2>
+		<h2 style="font-size: 45px">Viktoria meble</h2>
 	</div>
 	
 	<div id="find">
 		<h2 style="font-size: 35px">"Meble na wymiar na każdą kieszeń"</h2>
 	</div>
 	
-	<div id="sing_in1">
-		<h2><button type="button" class="btn btn-warning">Zarejestruj</button></h2>
-	</div>
 	
-	<div id ="sing_in2">
-		<h2> <button type="button" class="btn btn-warning" id="myBtn">Zaloguj</button></h2>
-	</div>
 
 
 </div>
 <div id="conteiner2">
 <div id="menu">
-
+	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Oferta</a></li>
+      <li><a href="#">Galeria</a></li>
+	  <li><a href="#">Z kim współpracujemy</a></li>
+	  <li><a href="#">Kontakt</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Rejestracja</a></li>
+      <li><a id="myBtn" href="#"><span class="glyphicon glyphicon-log-in" ></span>  Logowanie</a></li>
+    </ul>
+  </div>
+</nav>
 </div>
 
 <div id="mini_gal">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="zdj1.jpg" alt="Los Angeles">
+    </div>
+
+    <div class="item">
+      <img src="zdj2.jpg" alt="Chicago">
+    </div>
+
+    <div class="item">
+      <img src="zdj3.jpg" alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 </div>
 
 <div id="content">
+Nowoczesne meble na wymiar, w tym nowoczesne kuchnie, które oferuje nasza firma na pewno spełnią Twoje wymagania. Jeśli planujesz remont kuchni, łazienki, sypialni czy garderoby, to wiedz, że możesz na nas liczyć. To na co stawia nasza firma, to najwyższa jakość stosowanych materiałów, z których wykonujemy meble na wymiar. Gwarantujemy, że są to najlepsze produkty, jakie można znaleźć na rynku, dlatego wiemy, że będą Ci służyć przez wiele lat. Projekty naszych mebli to proste, eleganckie formy, które nie przestaną być modne w kolejnym sezonie.
+<br/><br/>
+Oprócz atrakcyjnego wyglądu oferujemy także wysoką funkcjonalność oraz trwałość, a każdy, kto lubi gotować, zdaje sobie sprawę z tego, że to najważniejsza cecha mebli kuchennych na wymiar. Poza tym jesteśmy w stanie dopasować je do nawet najbardziej nietypowych pomieszczeń, do których kupno gotowych mebli jest niemożliwe. A jeśli miejsce, w którym urządzasz kuchnię, zalicza się do „typowych”, gwarantujemy, że wykorzystamy tę przestrzeń w najlepszy możliwy sposób. Sam zdecydujesz, z jakich dodatków chcesz skorzystać, ale jedno wiemy na pewno – Twoje meble na wymiar będą wykonane bardzo dokładnie i profesjonalnie.
+<br/><br/>
+Swoje usługi świadczymy na teranie całego województwa mazowieckiego. W naszej ofercie znajdziesz jeszcze więcej propozycji – od szaf, poprzez meble do łazienki, garderoby, meble do salonu, nowoczesne kuchnie, aż po te, które świetnie nadadzą się do biura. Viktoria Meble to dobry wybór, więc jeśli zależy Ci na doskonałej jakości mebli na wymiar, które nie znudzą Ci się, ani nie zniszczą przez wiele lat, to koniecznie wybierz usługi naszej firmy – gwarantujemy, że jest to (wyglądająca naprawdę elegancko) inwestycja na całe pokolenia.
 
 </div>
 </div>
@@ -84,26 +116,23 @@ dddd
       <div class="modal-content">
         <div class="modal-header" style="padding:35px 50px;">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
+          <h4><span class="glyphicon glyphicon-lock"></span> Logowanie </h4>
         </div>
         <div class="modal-body" style="padding:40px 50px;">
           <form role="form">
             <div class="form-group">
-              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
-              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Nazwa uzytkownika</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Wpisz adres e-mail">
             </div>
             <div class="form-group">
-              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-              <input type="text" class="form-control" id="psw" placeholder="Enter password">
-            </div>
-            <div class="checkbox">
-              <label><input type="checkbox" value="" checked>Remember me</label>
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Hasło</label>
+              <input type="text" class="form-control" id="psw" placeholder="Wpisz hasło">
             </div>
               <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
           </form>
         </div>
         <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Anuluj</button>
           
         </div>
       </div>
@@ -119,6 +148,7 @@ $(document).ready(function(){
     });
 });
 </script>
+
 
 
 
