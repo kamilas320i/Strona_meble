@@ -1,0 +1,29 @@
+$('#1').click(function()
+{
+	$('#content').show();
+	$('#content1').css('display','none');
+	$('#content2').css('display','none');
+	$('#kontakt1').css('display','none');
+});
+$('#2').click(function()
+{
+	$('#content').css('display','none');
+	$('#content1').show();
+	$('#content2').css('display','none');
+	$('#kontakt1').css('display','none');
+});
+$('#3').click(function()
+{
+	$('#content').css('display','none');
+	$('#content1').css('display','none');
+	$('#mini_gal').css('display','none');
+	$('#content2').show();
+	$('#kontakt1').css('display','none');
+});
+$('#kontakt').click(function()
+{
+	$('#sglowna1').css('display','none');
+	$('#oferta1').css('display','none');
+	$('#galeria1').css('display','none');
+	$('#kontakt1').show();
+});
