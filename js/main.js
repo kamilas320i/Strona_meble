@@ -1,29 +1,52 @@
-$('#1').click(function()
+$('#1').click( function ()
 {
 	$('#content').show();
-	$('#content1').css('display','none');
-	$('#content2').css('display','none');
-	$('#kontakt1').css('display','none');
+	$('#oferta').css('display', 'none');
+	$('#galeria').css('display', 'none');
+    $('#wspolpraca').css('display', 'none');
+	$('#rejestr').css('display', 'none');
 });
-$('#2').click(function()
+$('#2').click(function ()
 {
-	$('#content').css('display','none');
-	$('#content1').show();
-	$('#content2').css('display','none');
-	$('#kontakt1').css('display','none');
+	$('#content').css('display', 'none');
+	$('#oferta').show();
+	$('#galeria').css('display', 'none');
+    $('#wspolpraca').css('display', 'none');
+	$('#rejestr').css('display', 'none');
 });
-$('#3').click(function()
+$('#3').click(function ()
 {
-	$('#content').css('display','none');
-	$('#content1').css('display','none');
-	$('#mini_gal').css('display','none');
-	$('#content2').show();
-	$('#kontakt1').css('display','none');
+	$('#content').css('display', 'none');
+	$('#oferta').css('display', 'none');
+	$('#galeria').show();
+    $('#wspolpraca').css('display', 'none');
+	$('#kontakt').css('display', 'none');
+	$('#rejestr').css('display', 'none');
 });
-$('#kontakt').click(function()
+$('#4').click(function ()
 {
-	$('#sglowna1').css('display','none');
-	$('#oferta1').css('display','none');
-	$('#galeria1').css('display','none');
-	$('#kontakt1').show();
+	$('#content').css('display', 'none');
+	$('#oferta').css('display', 'none');
+	$('#galeria').css('display', 'none');
+    $('#wspolpraca').show();
+	$('#kontakt').css('display', 'none');
+	$('#rejestr').css('display', 'none');
+});
+$('#5').click(function ()
+{
+	$('#content').css('display', 'none');
+	$('#oferta').css('display', 'none');
+	$('#galeria').css('display', 'none');
+    $('#wspolpraca').css('display', 'none');
+	$('#kontakt').show();
+	$('#rejestr').css('display', 'none');
+});
+$('#b_rejestr').click(function ()
+{
+	$('#content').css('display', 'none');
+	$('#oferta').css('display', 'none');
+	$('#galeria').css('display', 'none');
+    $('#wspolpraca').css('display', 'none');
+	$('#kontakt').css('display', 'none');
+	$('#rejestr').show();
 });
